@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Period_Trackernp/precache-manifest.e4b7026a1e3a4f0c1408c9bfad196d60.js"
+  "/Period_Tracker/precache-manifest.da689460ce4ce7c467284479290b3613.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Period_Trackernp/index.html", {
+workbox.routing.registerNavigationRoute("/Period_Tracker/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
